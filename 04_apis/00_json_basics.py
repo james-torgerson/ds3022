@@ -1,7 +1,7 @@
 import json
 
 
-# A JSON blob is just a string of text
+# A JSON blob is just a string of text -- anything that isn't text needs to be casted as such
 blob = """
 {
   "name": "Ada Lovelace",
@@ -30,7 +30,7 @@ print(type(data))
 print(data)
 
 # --- Simple fields ---
-
+age = data['age']  # hard brackets are how we fetch out the value of a dictionary in json
 
 
 # --- Lists ---
