@@ -23,7 +23,14 @@ tornado = "*"
 redis = "*"
 streamlit = "*"
 websockets = "<17,>=15"
+<<<<<<< HEAD
 webswebsockets = "<17,>=15"
+=======
+httpx2 = "*"
+asyncio = "*"
+websocket-client = "*"
+requests_sse = "*"
+>>>>>>> 07e961c46c8516d210396ee60cfd33a8010bbf2e
 
 [dev-packages]
 
